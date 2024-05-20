@@ -1,7 +1,6 @@
 {
   "name": "eslint-config-gi",
   "version": "0.0.2",
-  "type": "module",
   "description": "ESLint configuration for Grimm Integrations",
   "license": "MIT",
   "author": {
