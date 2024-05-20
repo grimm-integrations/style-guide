@@ -3,6 +3,21 @@
   "version": "0.0.1",
   "type": "module",
   "description": "ESLint configuration for Grimm Integrations",
+  "license": "MIT",
+  "author": {
+    "name": "Grimm Integrations",
+    "email": "mail@grimm-integrations.cc"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "style-guide",
+    "grimm-integrations"
+  ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/grimm-integrations/style-guide"
+  },
   "exports": {
     "./react": "./configs/react.js",
     "./next": "./configs/next.js"
