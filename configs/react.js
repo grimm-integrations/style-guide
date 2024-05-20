@@ -40,6 +40,7 @@ module.exports = {
     "node_modules",
     "dist",
     ".*.js",
+    ".*.cjs",
     ".*.ts",
     "*.config.js",
     "*.config.ts",
