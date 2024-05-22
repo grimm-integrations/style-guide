@@ -9,7 +9,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:prettier/recommended",
-    "plugin:perfectionist/recommended-alphabetical",
+    "plugin:perfectionist/recommended-natural",
     "plugin:jsdoc/recommended-typescript",
   ],
   plugins: [
