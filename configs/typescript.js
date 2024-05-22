@@ -6,17 +6,19 @@ const project = resolve(process.cwd(), "tsconfig.json");
 module.exports = {
   extends: [
     "eslint:recommended",
-    "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:prettier/recommended",
     "plugin:perfectionist/recommended-alphabetical",
+    "plugin:jsdoc/recommended-typescript",
   ],
   plugins: [
     "@typescript-eslint",
     "perfectionist",
     "prettier",
+    "react",
     "sort-destructure-keys",
+    "jsdoc",
   ],
   globals: {
     React: true,
@@ -35,8 +37,7 @@ module.exports = {
   },
   ignorePatterns: [
     "node_modules",
-    ".next",
-    "out",
+    "dist",
     ".*.js",
     ".*.cjs",
     ".*.ts",
@@ -67,8 +68,6 @@ module.exports = {
       },
     ],
     "prefer-template": "error",
-    "react/hook-use-state": "error",
-    "react/react-in-jsx-scope": "off",
     "sort-destructure-keys/sort-destructure-keys": [
       "error",
       { caseSensitive: false },

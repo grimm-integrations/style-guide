@@ -75,6 +75,5 @@ module.exports = {
       "error",
       { caseSensitive: false },
     ],
-    "sort-keys": ["error", "asc"],
   },
 };
