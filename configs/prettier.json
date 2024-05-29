@@ -4,7 +4,6 @@
   "tabWidth": 2,
   "trailingComma": "es5",
   "singleQuote": false,
-  "plugins": ["prettier-plugin-tailwindcss"],
   "proseWrap": "always",
   "tailwindFunctions": ["cn", "cva"]
 }
