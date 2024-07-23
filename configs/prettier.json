@@ -4,6 +4,5 @@
   "tabWidth": 2,
   "trailingComma": "es5",
   "singleQuote": false,
-  "proseWrap": "always",
-  "tailwindFunctions": ["cn", "cva"]
+  "proseWrap": "always"
 }
